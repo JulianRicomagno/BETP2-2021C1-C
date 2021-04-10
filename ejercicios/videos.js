@@ -34,7 +34,6 @@ let i = 2;
 
 while(i < miArra.length-1){
   let video = {data: miArra[(i+1)], time: miArra[(i+2)], type: miArra[(i+3)]};
-  //console.log(video);
   i+=4;
   videos.push(video);
 }
