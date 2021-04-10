@@ -39,17 +39,11 @@ while(i < miArra.length-1){
   videos.push(video);
 }
 
-console.log(videos);
-console.log(videos.filter(video => video.type == "Redux Video"));
-
 function calcSeconds() {
   let segundos=0;
   const query = videos.filter(video => video.type == "Redux Video");
-  console.log(query);
   for (const vid of query) {
-    console.log(vid);
     let segundo = parseInt(vid.time.slice(-3,-1));
-    console.log(segundo);
     segundos += segundo;
   }
   console.log(segundos);
