@@ -1,20 +1,21 @@
 /**
- * Dado un string s que contiene solo los caracteres 
+ * Dado un string s que contiene solo los caracteres
  * '(', ')','{','}', '[' y ']' determinar si el string enviado es valido
- * 
+ *
  * Un string es valido si
  * 1.- Todas las aperturas ( { y [ tienen su cierre.
- * 2.- Todos los cierres estan en el orden correcto 
- * 
+ * 2.- Todos los cierres estan en el orden correcto
+ *
  */
 
 /**
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @return {boolean}
  */
+
 const isValid = function(s){
-    
+
 };
 
 // TESTS
